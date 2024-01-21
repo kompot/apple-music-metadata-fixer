@@ -4,6 +4,8 @@ Recovers metadata from Apple Music XML library backup to actual Apple Music
 application. Uses fingerprinting based on date added/modified/track duration
 to match tracks between actual Apple Music app, it's lateset (corrupted) export and then uses PermanentID to match with old (non corrupted) export. Then sync designated fields from old backup into actual Apple Music app so that it syncs correctly to the cloud.
 
+https://github.com/kompot/apple-music-metadata-fixer/assets/231635/4436431d-a3ec-403f-b6fe-713b1c8335fe
+
 # Steps
 
 ## Preliminary step, preparing 2 XMLs
