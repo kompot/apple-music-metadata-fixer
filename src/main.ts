@@ -107,6 +107,7 @@ async function processXmls(
   );
 
   // remove selection and position cursor on first track
+  // TODO breaks in case selection start with the first track in the list, how to fix? :(
   await zx.$`sendkeys --application-name "Music" --characters "<c:up><c:down>"`;
 
   const stats = {
